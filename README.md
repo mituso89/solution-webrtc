@@ -89,7 +89,7 @@
   - Jitsi Iframe: Can be integrate with Our App [Iframe](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-iframe) little customize
   - Jitsi API [low level](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-ljm-api)
 
-- Why we should use Jitsi API: Client require a application more customize and they need transfer file (jitsi don't support). So we need implement jitsi api low level for app
+- Why we should use Jitsi API [low level](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-ljm-api): Client require a application more customize and they need transfer file (jitsi don't support). So we need implement jitsi api low level for app
 
 - We need websocket for chat app and transfer file between from client to client.
 
@@ -111,3 +111,10 @@
 - With support GEO and load balancing JVB, Jitsi can have 1000 user room with 16 JVB instances (4 cpu 8gb ram) if all camera and audio are open or can be much less if presenter only use camera. However that is just theory. I think the client device can't handle the connection above
 
   ![test](images/test.png) 19 participants with 2 core 4GB ram. and we can see it consumes about 40% of CPU. I think it will be better when we deploy to the local network. No geographical distance and local network usage
+
+# Resource
+
+- We need 2 people to do it: One with Frontend experience and one with backend API writing and create a better package to deploy in local network. **(Some big problem we can meet to deploy to local network. Make a meeting we should have some discussion)**
+
+- Frontend will have a lot of work to do because Jitsi API [low level](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-ljm-api) is so new. They have to more research and learning. I suggest front end developers to follow some repo [Integrate API low level](https://github.com/fpw23/telimed).
+- Estimated completion time is 6 weeks. Since I do not have enough specific data to analyze and the time is not enough to break the tasks, this is an estimate based on personal experience. We can offer the first product to the customer.
