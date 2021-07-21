@@ -112,9 +112,25 @@
 
   ![test](images/test.png) 19 participants with 2 core 4GB ram. and we can see it consumes about 40% of CPU. I think it will be better when we deploy to the local network. No geographical distance and local network usage
 
+  ## My recommendation
+
+- At least 4GB of system memory (RAM)
+- At least 2CPU
+
 # Resource
 
 - We need 2 people to do it: One with Frontend experience and one with backend API writing and create a better package to deploy in local network. **(Some big problem we can meet to deploy to local network. Make a meeting we should have some discussion)**
 
 - Frontend will have a lot of work to do because Jitsi API [low level](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-ljm-api) is so new. They have to more research and learning. I suggest front end developers to follow some repo [Integrate API low level](https://github.com/fpw23/telimed).
 - Estimated completion time is 6 weeks. Since I do not have enough specific data to analyze and the time is not enough to break the tasks, this is an estimate based on personal experience. We can offer the first product to the customer.
+
+# Back up Plan
+
+- Because Jitsi api is so new so we should be have some alternative solution.
+
+## ToDo
+
+### Document should available at 2021-07-23
+
+- Janus Webrtc
+- kurento
