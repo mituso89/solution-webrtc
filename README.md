@@ -1,13 +1,3 @@
-# 1 OVERVIEW
-
-# ![Overview](images/Overview.png)
-
-1. Enviroment:
-   Local Network
-2. Customer Suggestion
-
-   ![Suggession ](images/Server.png)
-
 # SOLUTION
 
 - Use Jitsi Media server
