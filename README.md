@@ -130,7 +130,7 @@
 
 ## ToDo
 
-### Document should available at 2021-07-23
+### Document should be available at 2021-07-23
 
 - Janus Webrtc
 - kurento
