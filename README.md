@@ -100,7 +100,7 @@
 - Main Web, Jicofo, Prosody don't load much (no chat).
 - With support GEO and load balancing JVB, Jitsi can have 1000 user room with 16 JVB instances (4 cpu 8gb ram) if all camera and audio are open or can be much less if presenter only use camera. However that is just theory. I think the client device can't handle the connection above
 
-  ![test](images/test.png) 19 participants with 2 core 4GB ram. and we can see it consumes about 40% of CPU. I think it will be better when we deploy to the local network. No geographical distance and local network usage
+  ![test](images/test1.png) 19 participants with 2 core 4GB ram. and we can see it consumes about 40% of CPU. I think it will be better when we deploy to the local network. No geographical distance and local network usage
 
   ## My recommendation
 
